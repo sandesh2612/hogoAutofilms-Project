@@ -3,6 +3,11 @@ import { Link } from "react-router-dom";
 
 import logo from "../assets/t1.jpeg";
 import instagram from "../assets/t1.jpeg";
+import facebook from "../assets/facebook.svg"
+import twitter from "../assets/twitter.svg"
+import whatsappImg from "../assets/whatsappImg.svg"
+import youtube from "../assets/youtube.svg"
+import instagram from "../assets/instagram.png";
 
 const Footer = () => {
   return (
@@ -110,93 +115,108 @@ const Footer = () => {
       >
         {/* Facebook */}
         <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="
-            w-12 h-12
-            flex items-center justify-center
-            rounded-2xl
-            bg-gray-800
-            hover:scale-110
-            transition duration-300
-          "
-        >
-          <span className="text-xl">📘</span>
-        </a>
+  href="#" // Replace # with your actual Facebook URL
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    w-12 h-12
+    flex items-center justify-center
+    rounded-2xl
+    bg-gray-800
+    hover:scale-110
+    transition duration-300
+  "
+>
+  <img 
+    src={facebook} 
+    alt="Facebook" 
+    className="w-6 h-6 object-contain" // Adds size to the icon
+  />
+</a>
 
         {/* X */}
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="
-            w-12 h-12
-            flex items-center justify-center
-            rounded-2xl
-            bg-gray-800
-            hover:scale-110
-            transition duration-300
-          "
-        >
-          <span className="text-xl">𝕏</span>
-        </a>
+      <a
+  href="#" // Replace # with your actual Twitter URL
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    w-12 h-12
+    flex items-center justify-center
+    rounded-2xl
+    bg-gray-800
+    hover:scale-110
+    transition duration-300
+  "
+>
+  <img 
+    src={twitter} 
+    alt="twitter" 
+    className="w-6 h-6 object-contain" // Adds size to the icon
+  />
+</a>
 
         {/* YouTube */}
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="
-            w-12 h-12
-            flex items-center justify-center
-            rounded-2xl
-            bg-gray-800
-            hover:scale-110
-            transition duration-300
-          "
-        >
-          <span className="text-xl">▶</span>
-        </a>
+           <a
+  href="#" // Replace # with your actual Youtube URL
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    w-12 h-12
+    flex items-center justify-center
+    rounded-2xl
+    bg-gray-800
+    hover:scale-110
+    transition duration-300
+  "
+>
+  <img 
+    src={youtube} 
+    alt="youtube" 
+    className="w-6 h-6 object-contain" // Adds size to the icon
+  />
+</a>
 
         {/* Instagram */}
-        <a
-          href="https://www.instagram.com/hogoautofilms_india"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="
-            w-12 h-12
-            flex items-center justify-center
-            rounded-2xl
-            bg-gray-800
-            hover:scale-110
-            transition duration-300
-          "
-        >
-          <img
-            src={instagram}
-            alt="Instagram"
-            className="w-6 h-6 object-contain"
-          />
-        </a>
+         <a
+  href="#" // Replace # with your actual Instagram URL
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    w-12 h-12
+    flex items-center justify-center
+    rounded-2xl
+    bg-gray-800
+    hover:scale-110
+    transition duration-300
+  "
+>
+  <img 
+    src={instagram} 
+    alt="instagram" 
+    className="w-6 h-6 object-contain" // Adds size to the icon
+  />
+</a>
 
         {/* WhatsApp */}
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="
-            w-12 h-12
-            flex items-center justify-center
-            rounded-2xl
-            bg-gray-800
-            hover:scale-110
-            transition duration-300
-          "
-        >
-          <span className="text-xl">💬</span>
-        </a>
-      </div>
+         <a
+  href="#" // Replace # with your actual Instagram URL
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    w-12 h-12
+    flex items-center justify-center
+    rounded-2xl
+    bg-gray-800
+    hover:scale-110
+    transition duration-300
+  "
+>
+  <img 
+    src={whatsappImg} 
+    alt="whatsappImg" 
+    className="w-6 h-6 object-contain" // Adds size to the icon
+  />
+</a>
 
       {/* Bottom Footer */}
       <div
