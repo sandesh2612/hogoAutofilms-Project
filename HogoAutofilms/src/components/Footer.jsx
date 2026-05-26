@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import logo from "../assets/t1.jpeg";
-import instagram from "../assets/t1.jpeg";
+// import instagram from "../assets/t1.jpeg";
 import facebook from "../assets/facebook.svg"
 import twitter from "../assets/twitter.svg"
 import whatsappImg from "../assets/whatsappImg.svg"
@@ -12,7 +12,7 @@ import instagram from "../assets/instagram.png";
 const Footer = () => {
   return (
     <footer className="pt-16 bg-secondary text-white">
-      
+
       {/* Top Footer */}
       <div
         className="
@@ -115,10 +115,10 @@ const Footer = () => {
       >
         {/* Facebook */}
         <a
-  href="#" // Replace # with your actual Facebook URL
-  target="_blank"
-  rel="noopener noreferrer"
-  className="
+          href="#" // Replace # with your actual Facebook URL
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
     w-12 h-12
     flex items-center justify-center
     rounded-2xl
@@ -126,20 +126,20 @@ const Footer = () => {
     hover:scale-110
     transition duration-300
   "
->
-  <img 
-    src={facebook} 
-    alt="Facebook" 
-    className="w-6 h-6 object-contain" // Adds size to the icon
-  />
-</a>
+        >
+          <img
+            src={facebook}
+            alt="Facebook"
+            className="w-6 h-6 object-contain" // Adds size to the icon
+          />
+        </a>
 
         {/* X */}
-      <a
-  href="#" // Replace # with your actual Twitter URL
-  target="_blank"
-  rel="noopener noreferrer"
-  className="
+        <a
+          href="#" // Replace # with your actual Twitter URL
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
     w-12 h-12
     flex items-center justify-center
     rounded-2xl
@@ -147,20 +147,20 @@ const Footer = () => {
     hover:scale-110
     transition duration-300
   "
->
-  <img 
-    src={twitter} 
-    alt="twitter" 
-    className="w-6 h-6 object-contain" // Adds size to the icon
-  />
-</a>
+        >
+          <img
+            src={twitter}
+            alt="twitter"
+            className="w-6 h-6 object-contain" // Adds size to the icon
+          />
+        </a>
 
         {/* YouTube */}
-           <a
-  href="#" // Replace # with your actual Youtube URL
-  target="_blank"
-  rel="noopener noreferrer"
-  className="
+        <a
+          href="#" // Replace # with your actual Youtube URL
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
     w-12 h-12
     flex items-center justify-center
     rounded-2xl
@@ -168,20 +168,20 @@ const Footer = () => {
     hover:scale-110
     transition duration-300
   "
->
-  <img 
-    src={youtube} 
-    alt="youtube" 
-    className="w-6 h-6 object-contain" // Adds size to the icon
-  />
-</a>
+        >
+          <img
+            src={youtube}
+            alt="youtube"
+            className="w-6 h-6 object-contain" // Adds size to the icon
+          />
+        </a>
 
         {/* Instagram */}
-         <a
-  href="#" // Replace # with your actual Instagram URL
-  target="_blank"
-  rel="noopener noreferrer"
-  className="
+        <a
+          href="#" // Replace # with your actual Instagram URL
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
     w-12 h-12
     flex items-center justify-center
     rounded-2xl
@@ -189,20 +189,20 @@ const Footer = () => {
     hover:scale-110
     transition duration-300
   "
->
-  <img 
-    src={instagram} 
-    alt="instagram" 
-    className="w-6 h-6 object-contain" // Adds size to the icon
-  />
-</a>
+        >
+          <img
+            src={instagram}
+            alt="instagram"
+            className="w-6 h-6 object-contain" // Adds size to the icon
+          />
+        </a>
 
         {/* WhatsApp */}
-         <a
-  href="#" // Replace # with your actual Instagram URL
-  target="_blank"
-  rel="noopener noreferrer"
-  className="
+        <a
+          href="#" // Replace # with your actual Instagram URL
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
     w-12 h-12
     flex items-center justify-center
     rounded-2xl
@@ -210,26 +210,29 @@ const Footer = () => {
     hover:scale-110
     transition duration-300
   "
->
-  <img 
-    src={whatsappImg} 
-    alt="whatsappImg" 
-    className="w-6 h-6 object-contain" // Adds size to the icon
-  />
-</a>
+        >
+          <img
+            src={whatsappImg}
+            alt="whatsappImg"
+            className="w-6 h-6 object-contain" // Adds size to the icon
+          />
+        </a>
 
-      {/* Bottom Footer */}
-      <div
-        className="
+        {/* Bottom Footer */}
+        <div
+          className="
+          w-full
           mt-10
           border-t border-gray-700
           py-5
           text-center
           text-sm
           text-white/70
+          bg-gray-900
         "
-      >
-        © 2026 - Hogo Autofilms
+        >
+          © 2026 - Hogo Autofilms
+        </div>
       </div>
     </footer>
   );
