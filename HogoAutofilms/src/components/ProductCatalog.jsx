@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 
 // Import images from assets
-import yuvaGlossImg from './assets/yuva-gloss-6years.jpg';
-import vayuGlossImg from './assets/vayu-gloss-8years.jpg';
-import vajraGlossImg from './assets/vajra-gloss-10years.jpg';
-import vayuMatteImg from './assets/vayu-matte-8years.jpg';
-import vayuBlackGlossImg from './assets/vayu-black-gloss-8years.jpg';
-import vayuBlackMatteImg from './assets/vayu-black-matte-8years.jpg';
-import yukiSafetyGlaze50Img from './assets/yuki-safety-glaze-50.png';
-import yukiSafetyGlaze70BlackImg from './assets/yuki-safety-glaze-70-black.png';
-import yukiSafetyGlaze70BlueImg from './assets/yuki-safety-glaze-70-blue.png';
-import sunroofProtectionImg from './assets/sunroof-protection-3years.png';
-import windshieldProtectionImg from './assets/windshield-protection-2years.png';
+import yuvaGlossImg from '../assets/yuva-gloss-6years.jpg';
+import vayuGlossImg from '../assets/vayu-gloss-8years.jpg';
+import vajraGlossImg from '../assets/vajra-gloss-10years.jpg';
+import vayuMatteImg from '../assets/vayu-matte-8years.jpg';
+import vayuBlackGlossImg from '../assets/vayu-black-gloss-8years.jpg';
+import vayuBlackMatteImg from '../assets/vayu-black-matte-8years.jpg';
+import yukiSafetyGlaze50Img from '../assets/yuki-safety-glaze-50.png';
+import yukiSafetyGlaze70BlackImg from '../assets/yuki-safety-glaze-70-black.png';
+import yukiSafetyGlaze70BlueImg from '../assets/yuki-safety-glaze-70-blue.png';
+import sunroofProtectionImg from '../assets/sunroof-protection-3years.png';
+import windshieldProtectionImg from '../assets/windshield-protection-2years.png';
 
 const ProductCatalog = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -103,6 +103,9 @@ const ProductCatalog = () => {
       url: '/product/6'
     }
   ];
+
+  
+  
 
   const filteredProducts = selectedCategory === 'all' 
     ? products 
