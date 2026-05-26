@@ -21,6 +21,7 @@ const Navbar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+  
 
   // Navigation Links
   const navLinks = [
