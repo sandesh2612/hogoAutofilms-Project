@@ -3,7 +3,9 @@ import Home from './pages/Home';
 // import About from './pages/About';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import About from './pages/About';
 import Gallery from './pages/Gallery';
+
 // import Product from './pages/Product';
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         {/* <Route path="/product" element={<Product />} /> */}
 

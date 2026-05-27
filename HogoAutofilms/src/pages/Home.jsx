@@ -6,19 +6,21 @@ import ParallaxSection from "../components/ParallaxSection";
 import Warrantysection from "../components/Warrantysection";
 import TestimonialsSection from "../components/TestimonialsSection";
 import Whychoosesection from "../components/Whychoosesection";
+import Hero from "../components/Hero";
 
 function Home() {
 
   return (
     <> 
+    <Hero />
     <AboutSection />
-    <BeforeAfterSection/>
-    <FAQSection/>
-    <Instagramsection/>
-    <ParallaxSection/>
     <Warrantysection/>
     <TestimonialsSection/>
     <Whychoosesection/>
+    <BeforeAfterSection/>
+    <ParallaxSection/>
+    <FAQSection/>
+    <Instagramsection/>
     
     </>
   

@@ -1,25 +1,18 @@
-import AboutSection from "../components/AboutSection";
-import BeforeAfterSection from "../components/BeforeAfterSection";
-import FAQSection from "../components/FAQSection";
-import Instagramsection from "../components/Instagramsection";
-import ParallaxSection from "../components/ParallaxSection";
-import TestimonialsSection from "../components/TestimonialsSection";
-import Warrantysection from "../components/Warrantysection";
-import Whychoosesection from "../components/Whychoosesection";
+import HeroSection from "../components/HeroSection";
+import gallerybg from "../assets/gallerybg.jpg"
+import GallerySection from "../components/GallerySection"
 
 function Gallery() {
 
   return (
     <> 
-    <AboutSection />
-    <BeforeAfterSection/>
-    <FAQSection/>
-    <Instagramsection/>
-    <ParallaxSection/>
-    <TestimonialsSection/>
-    <Warrantysection/>
-    <Whychoosesection/>
+    <HeroSection 
+           backgroundImage={gallerybg}
+           title="Gallery"
+           breadcrumbText="Gallery"
+         />
     
+    <GallerySection/>
     </>
   
 )

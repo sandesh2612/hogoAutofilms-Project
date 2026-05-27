@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import logo from "../assets/t1.jpeg";
+import logo from "../assets/logo.png";
 // import instagram from "../assets/t1.jpeg";
 import facebook from "../assets/facebook.svg"
 import twitter from "../assets/twitter.svg"
@@ -11,7 +11,7 @@ import instagram from "../assets/instagram.png";
 
 const Footer = () => {
   return (
-    <footer className="pt-16 bg-secondary text-white">
+    <footer style={{ backgroundColor: "rgb(0,0,26)" }} className="pt-16 text-white">
 
       {/* Top Footer */}
       <div
