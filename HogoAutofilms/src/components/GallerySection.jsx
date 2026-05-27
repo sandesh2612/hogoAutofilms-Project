@@ -1,4 +1,5 @@
 import { useState } from 'react';
+
 import gallery1 from '../assets/gallery1.jpeg';
 import gallery2 from '../assets/gallery2.jpeg';
 import gallery3 from '../assets/gallery3.jpeg';
@@ -90,6 +91,7 @@ export default function GallerySection() {
               alt={selectedImage.alt}
               className="w-full h-auto max-h-[90vh] object-contain rounded-lg"
             />
+            
           </div>
         </div>
       )}

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import car from "../assets/startcarbg.png"
+import startcarbg from "../assets/startcarbg.png"
 
 // 1. Import your logo asset
 import logoImg from '../assets/logo.png'; // Adjust path if your navbar is inside a components folder
@@ -29,7 +29,7 @@ const Navbar = () => {
     { name: 'About us', href: '/about' },
     { name: 'Gallery', href: '/gallery' },
     { name: 'Product', href: '/product' },
-    { name: 'Warranty', href: '/warranty' },
+    { name: 'Warranty', href: '/#warranty' },
     { name: 'Media', href: '/media' },
     { name: 'Our Team', href: '/team' },
     { name: 'Distributor', href: '/distributor' },
@@ -227,7 +227,7 @@ const Navbar = () => {
               Distributor Login
             </button>
           </div>
-          
+
 
         </div>
       </div>
