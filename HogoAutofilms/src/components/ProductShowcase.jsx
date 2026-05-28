@@ -8,7 +8,7 @@ export default function ProductShowcase({
   descriptionLabel = "Description :"
 }) {
   return (
-    <section className="max-w-7xl bg-[#00001a] mx-auto px-4 sm:px-6 py-12 sm:py-14 md:py-16 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+    <section className="max-w-full bg-[#00001a] mx-auto px-4 sm:px-6 py-12 sm:py-14 md:py-16 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
       {/* Image Section */}
       <div className="bg-[#0a0a2a] p-6 sm:p-8 rounded-xl">
         <div className="relative flex items-center justify-center">

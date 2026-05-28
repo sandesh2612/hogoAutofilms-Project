@@ -1,15 +1,82 @@
 [
-  {
-    "id": 21,
-    "slug": "21",
-    "title": "Yuva - Gloss 6 Years","image": "productimg1.jpg",
-    "description": "Smart Protection. Lasting Performance. 6 Years Warranty. Introducing PPF YUVA by HOGO AUTOFILMS, a reliable and high-performance paint protection film designed for everyday durability and style. Engineered with advanced protective technology, it shields your vehicle from scratches, stone chips, road debris, UV rays, and environmental damage. Featuring self-healing properties, minor swirl marks and light scratches disappear with heat, maintaining a smooth and refined finish. Its hydrophobic surface repels water and dirt, making cleaning effortless while preserving a fresh, glossy look. Backed by a 6 Years Warranty, PPF YUVA delivers dependable protection and enhanced shine, keeping your vehicle looking newer for longer. Strong Protection. Smart Choice. Trusted Durability. 6 Years Peace of Mind"
-  },
+    {
+        "id": 21,
+        "slug": "21",
+        "title": "Yuva - Gloss 6 Years",
+        "image": "productimg1.jpg",
+        "description": "Smart Protection. Lasting Performance. 6 Years Warranty. Introducing PPF YUVA by HOGO AUTOFILMS, a reliable and high-performance paint protection film designed for everyday durability and style. Engineered with advanced protective technology, it shields your vehicle from scratches, stone chips, road debris, UV rays, and environmental damage. Featuring self-healing properties, minor swirl marks and light scratches disappear with heat, maintaining a smooth and refined finish. Its hydrophobic surface repels water and dirt, making cleaning effortless while preserving a fresh, glossy look. Backed by a 6 Years Warranty, PPF YUVA delivers dependable protection and enhanced shine, keeping your vehicle looking newer for longer. Strong Protection. Smart Choice. Trusted Durability. 6 Years Peace of Mind"
+    },
+    {
+        "id": 22,
+        "slug": "22",
+        "title": "Vayu - Gloss 8 Years",
+        "image": "productimg2.jpg",
+        "description": "Extreme Gloss. Elite Protection. 8 Years Warranty. Introducing PPF VAYU GLOSS, a premium paint protection film crafted to deliver unmatched shine and long-lasting durability. Designed with advanced self-healing technology, it eliminates light scratches and swirl marks, preserving a flawless, mirror-like finish. Engineered to protect against stone chips, road debris, UV exposure, stains, and environmental damage, VAYU GLOSS safeguards your vehicle’s original paint while enhancing depth and clarity. Its ultra-smooth, hydrophobic surface repels water and dirt, ensuring effortless maintenance and a consistently showroom-ready appearance. Backed by an 8 Years Warranty, VAYU GLOSS offers superior performance, brilliant aesthetics, and complete peace of mind. High Definition Shine. Maximum Protection. Superior clarity. 8 Years Peace of Mind" 
+    },
 
     {
-    "id": 21,
-    "slug": "21",
-    "title": "Yuva - Gloss 6 Years","image": "productimg1.jpg",
-    "description": "Smart Protection. Lasting Performance. 6 Years Warranty. Introducing PPF YUVA by HOGO AUTOFILMS, a reliable and high-performance paint protection film designed for everyday durability and style. Engineered with advanced protective technology, it shields your vehicle from scratches, stone chips, road debris, UV rays, and environmental damage. Featuring self-healing properties, minor swirl marks and light scratches disappear with heat, maintaining a smooth and refined finish. Its hydrophobic surface repels water and dirt, making cleaning effortless while preserving a fresh, glossy look. Backed by a 6 Years Warranty, PPF YUVA delivers dependable protection and enhanced shine, keeping your vehicle looking newer for longer. Strong Protection. Smart Choice. Trusted Durability. 6 Years Peace of Mind"
-  }
+        "id": 24,
+        "slug": "24",
+        "title": "Vajra - Gloss 10 Years",
+        "image": "productimg3.jpg",
+        "description":"Protect your vehicle with the advanced performance of HOGO AUTOFILMS Gloss Clear PPF. Engineered with next-generation self-healing technology, it effortlessly eliminates light scratches and swirl marks, preserving a flawless finish. Designed to resist stone chips, road debris, UV rays, stains, and environmental damage, this premium film safeguards your car’s original paint while enhancing its depth and shine with a crystal-clear, high-gloss finish. Its hydrophobic surface repels water and dirt, ensuring easy maintenance and a consistently showroom-ready appearance. Unmatched clarity. Maximum durability. 10 Years Complete Peace of Mind."
+    },
+
+    {
+        "id": 23,
+        "slug": "23",
+        "title": "Vayu - Matte 8 Years",
+        "image": "productimg4.jpg",
+        "description":"Strong Protection. Bold Matte Finish. Long-Lasting Confidence. PPF VAYU MATTE is designed to deliver superior paint protection with a refined satin-matte finish. Manufactured using advanced TPU technology, it shields your vehicle from scratches, swirl marks, stains, UV rays, and environmental damage while maintaining a smooth, elegant matte appearance. The film features a self-healing top coat that helps eliminate minor scratches with heat, along with excellent stain and chemical resistance for easier maintenance. Backed by an 8 Years Warranty against yellowing, cracking, peeling, bubbling, and delamination, VAYU MATTE ensures long-lasting durability and reliable performance. Advanced Protection. Premium Matte Finish. 8 Years of Confidence."
+    },
+{
+    "id": 26,
+        "slug": "26",
+        "title": "Vayu - Black Gloss 8 Years",
+        "image": "productimg5.jpg",
+        "description":"Extreme Gloss. Elite Protection. 8 Years Warranty. Introducing PPF VAYU GLOSS, a premium paint protection film crafted to deliver unmatched shine and long-lasting durability. Designed with advanced self-healing technology, it eliminates light scratches and swirl marks, preserving a flawless, mirror-like finish. Engineered to protect against stone chips, road debris, UV exposure, stains, and environmental damage, VAYU GLOSS safeguards your vehicle’s original paint while enhancing depth and clarity. Its ultra-smooth, hydrophobic surface repels water and dirt, ensuring effortless maintenance and a consistently showroom-ready appearance. Backed by an 8 Years Warranty, VAYU GLOSS offers superior performance, brilliant aesthetics, and complete peace of mind."
+},
+{
+    "id": 25,
+        "slug": "25",
+        "title": "Vayu - Black - Matte 8 Years",
+        "image": "productimg6.jpg",
+        "description":"Bold Matte Finish. Powerful Protection. 8 Years Warranty. Transform your vehicle with the distinctive elegance of VAYU MATTE PPF from HOGO AUTOFILMS, Designed to deliver a smooth satin-matte appearance, it enhances your car’s character while preserving its original paint. Built with advanced self-healing technology, VAYU MATTE resists light scratches and swirl marks while protecting against stone chips, road debris, UV exposure, stains, and environmental damage. Its hydrophobic surface repels water and dirt, ensuring easy maintenance without compromising the rich matte texture. Striking matte aesthetics. Superior durability. 8 Years of assured protection."
+},
+{
+ "id": 18,
+        "slug": "18",
+        "title": "YUKI Safety Glaze 50% - 10 Years",
+        "image": "productimg7.jpg",
+        "description":"Upgrade your driving experience with HOGO AUTOFILMS Premium Window Safety Glaze, engineered for superior heat rejection, enhanced privacy, and long-lasting performance. Built with advanced technology, these high-performance films reduce heat, glare, and harmful UV rays, keeping your cabin cooler while protecting your vehicle’s interior from fading and damage. Available in multiple VLT (Visible Light Transmission) options to match your driving preference: • 50% VLT – Balanced shade with enhanced comfort and visibility • 70% VLT – Light protection with near-clear visibility Designed for durability, color stability, and fade resistance, HOGO AUTOFILMS Window Safety Glaze delivers a sleek finish with consistent performance season after season. Backed by a 10-Year Warranty, it’s the perfect combination of style, safety, comfort, and protection for every journey. Drive Cooler. Drive Safer. Drive Smarter."
+},
+{
+     "id": 7,
+        "slug": "7",
+        "title": "YUKI Safety Glaze - 70% Black 10 Years",
+        "image": "productimg8.jpg",
+        "description": "YUKI Safety Glaze - 70% Black and Blue 10 Years Upgrade your driving experience with HOGO AUTOFILMS Premium Window Safety Glaze, engineered for superior heat rejection, enhanced privacy, and long-lasting performance. Built with advanced technology, these high-performance films reduce heat, glare, and harmful UV rays, keeping your cabin cooler while protecting your vehicle’s interior from fading and damage. Available in multiple VLT (Visible Light Transmission) options to match your driving preference: • 50% VLT – Balanced shade with enhanced comfort and visibility • 70% VLT – Light protection with near-clear visibility Designed for durability, color stability, and fade resistance, HOGO AUTOFILMS Window Safety Glaze delivers a sleek finish with consistent performance season after season. Backed by a 10-Year Warranty, it’s the perfect combination of style, safety, comfort, and protection for every journey. Drive Cooler. Drive Safer. Drive Smarter."
+},
+{
+    "id": 20,
+        "slug": "20",
+        "title": "YUKI Safety Glaze - 70% Blue 10 Years",
+        "image": "productimg9.jpg",
+        "description":"Upgrade your driving experience with HOGO AUTOFILMS Premium Window Safety Glaze, engineered for superior heat rejection, enhanced privacy, and long-lasting performance. Built with advanced technology, these high-performance films reduce heat, glare, and harmful UV rays, keeping your cabin cooler while protecting your vehicle’s interior from fading and damage. Available in multiple VLT (Visible Light Transmission) options to match your driving preference: • 50% VLT – Balanced shade with enhanced comfort and visibility • 70% VLT – Light protection with near-clear visibility Designed for durability, color stability, and fade resistance, HOGO AUTOFILMS Window Safety Glaze delivers a sleek finish with consistent performance season after season. Backed by a 10-Year Warranty, it’s the perfect combination of style, safety, comfort, and protection for every journey. Drive Cooler. Drive Safer. Drive Smarter."
+},
+{
+    "id": 5,
+        "slug": "5",
+        "title": "Sunroof Protection 3 Years",
+        "image": "productimg10.jpg",
+        "description":"Enhanced Protection for Your Panoramic View with 3 Years Warranty. Protect your vehicle’s sunroof with HOGO AUTOFILMS Sunroof PPF, specially engineered to shield against scratches, minor impacts, UV exposure, and environmental damage. Designed for high optical clarity, it maintains the original look of your glass while adding an extra layer of strength and durability. Its advanced protective layer helps reduce the risk of surface damage from road debris and daily wear, while the hydrophobic surface repels water and dust for easy maintenance. Backed by a 5 Years Warranty, HOGONN Sunroof PPF ensures long-lasting protection without compromising style or visibility. Clear View. Strong Protection. Reliable Performance."
+},
+{
+    "id": 6,
+        "slug": "6",
+        "title": "Windshield Protection 2 Years",
+        "image": "productimg11.jpg",
+        "description":"Crystal Clear Protection. 2 Years Warranty. Safeguard your vehicle’s most vulnerable surface with HOGO AUTOFILMS Windshield PPF. Specially engineered for optical clarity and high impact resistance, this advanced film protects your windshield from stone chips, road debris, minor cracks, and daily driving hazards. Designed to maintain perfect visibility, it offers superior transparency without distortion, ensuring a safe and comfortable driving experience. Its hydrophobic surface improves water beading during rain, enhancing driving clarity in all weather conditions. Backed by a 2 Years Warranty, HOGONN Windshield PPF delivers reliable protection, extended glass life, and peace of mind on every journey. Maximum visibility. Superior strength. Long-lasting protection."
+}
+
 ]

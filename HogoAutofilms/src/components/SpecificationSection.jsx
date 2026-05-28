@@ -44,7 +44,7 @@ export default function SpecificationSection({ specifications = null }) {
   const specs = specifications || defaultSpecs;
 
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 pb-14 sm:pb-16 bg-[#00001a]">
+    <section className="max-w-full mx-auto px-4 sm:px-6 pb-14 sm:pb-16 bg-[#00001a]">
       <h3 className="text-xl sm:text-2xl font-bold text-white mb-10">
         Specification
       </h3>
