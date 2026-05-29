@@ -1,11 +1,11 @@
 import insta1 from "../assets/insta1.jpeg";
-import insta2 from "../assets/insta1.jpeg";
-import insta3 from "../assets/insta1.jpeg";
-import insta4 from "../assets/insta1.jpeg";
-import insta5 from "../assets/insta1.jpeg";
-import insta6 from "../assets/insta1.jpeg";
-import insta7 from "../assets/insta1.jpeg";
-import insta8 from "../assets/insta1.jpeg";
+import insta2 from "../assets/insta2.jpeg";
+import insta3 from "../assets/insta3.jpeg";
+import insta4 from "../assets/insta4.jpeg";
+import insta5 from "../assets/insta5.jpg";
+import insta6 from "../assets/insta6.jpg";
+import insta7 from "../assets/insta7.jpg";
+import insta8 from "../assets/insta8.jpg";
 
 const INSTAGRAM_URL =
   "https://www.instagram.com/hogoautofilms_india?igsh=MTVldDk3cXF1c3kzbw==";
@@ -33,26 +33,35 @@ export default function InstagramSection() {
       >
         {/* ── Heading ── */}
         <div className="text-center mb-10 sm:mb-14 px-4 sm:px-6">
-          {/* label */}
-          <div className="inline-flex flex-col items-center gap-1 mb-4">
-            <div className="h-[2px] w-10 ml-auto bg-red-600" />
-            <span className="tracking-[0.22em] text-xs sm:text-sm font-semibold uppercase"
-              style={{ color: "rgb(0,0,26)" }}>
+          {/* Label with offset lines exactly like the image */}
+          <div className="inline-block relative py-2 px-8 mb-4">
+            {/* Top Red Line (Shifted Right) */}
+            <div className="absolute top-0 right-4 h-[2px] w-12 bg-red-600" />
+            
+            {/* Text */}
+            <span 
+              className="tracking-[0.25em] text-sm sm:text-base font-bold uppercase block dynamic-font"
+              style={{ color: "rgb(0,0,26)", fontFamily: "sans-serif" }}
+            >
               Our Instagram
             </span>
-            <div className="h-[2px] w-10 bg-red-600" />
+            
+            {/* Bottom Red Line (Shifted Left) */}
+            <div className="absolute bottom-0 left-4 h-[2px] w-12 bg-red-600" />
           </div>
 
-          {/* handle */}
-          <a
-            href={INSTAGRAM_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-2xl sm:text-4xl md:text-5xl font-bold hover:opacity-80 transition-opacity duration-200"
-            style={{ color: "rgb(0,0,26)" }}
-          >
-            @hogoautofilms_india
-          </a>
+          {/* Handle */}
+          <div className="mt-2">
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl sm:text-4xl md:text-5xl font-bold hover:opacity-80 transition-opacity duration-200 block tracking-wide"
+              style={{ color: "rgb(0,0,26)", fontFamily: "sans-serif" }}
+            >
+              @hogoautofilms_india
+            </a>
+          </div>
         </div>
 
         {/* ── Grid ── */}
@@ -72,7 +81,7 @@ export default function InstagramSection() {
                 className="w-full h-full object-cover aspect-square transition-transform duration-500 group-hover:scale-110"
               />
 
-              {/* icon overlay — visible by default, fades out on hover */}
+              {/* icon overlay */}
               <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-300 group-hover:opacity-0">
                 <div className="p-1.5 rounded-full bg-black/20 backdrop-blur-[2px]">
                   <InstagramIcon />

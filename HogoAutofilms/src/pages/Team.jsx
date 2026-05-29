@@ -1,8 +1,8 @@
-import AboutSection from "../components/AboutSection";
+// import AboutSection from "../components/AboutSection";
 
 
 
-function Home() {
+function Team() {
 
   return (
     <> 
@@ -13,4 +13,4 @@ function Home() {
 )
 }
 
-export default About;
+export default Team;

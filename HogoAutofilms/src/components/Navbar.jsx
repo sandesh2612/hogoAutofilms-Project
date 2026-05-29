@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import startcarbg from "../assets/startcarbg.png"
 
 // 1. Import your logo asset
-import logoImg from '../assets/logo.png'; // Adjust path if your navbar is inside a components folder
+import logoImg from '../assets/logo.png'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

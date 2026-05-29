@@ -1,7 +1,7 @@
 export default function WarrantySection() {
   const handleWarrantyAction = (action) => {
     console.log(`${action} clicked`);
-    // Add your warranty logic here
+    
   };
 
   return (

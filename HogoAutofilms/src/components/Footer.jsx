@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { Link } from "react-router-dom";
 
 import logo from "../assets/logo.png";
@@ -115,7 +115,7 @@ const Footer = () => {
       >
         {/* Facebook */}
         <a
-          href="#" // Replace # with your actual Facebook URL
+          href="#" 
           target="_blank"
           rel="noopener noreferrer"
           className="
@@ -136,7 +136,7 @@ const Footer = () => {
 
         {/* X */}
         <a
-          href="#" // Replace # with your actual Twitter URL
+          href="#" 
           target="_blank"
           rel="noopener noreferrer"
           className="
@@ -157,7 +157,7 @@ const Footer = () => {
 
         {/* YouTube */}
         <a
-          href="#" // Replace # with your actual Youtube URL
+          href="#" 
           target="_blank"
           rel="noopener noreferrer"
           className="
@@ -178,7 +178,7 @@ const Footer = () => {
 
         {/* Instagram */}
         <a
-          href="#" // Replace # with your actual Instagram URL
+          href="#" 
           target="_blank"
           rel="noopener noreferrer"
           className="
@@ -199,7 +199,7 @@ const Footer = () => {
 
         {/* WhatsApp */}
         <a
-          href="#" // Replace # with your actual Instagram URL
+          href="#" 
           target="_blank"
           rel="noopener noreferrer"
           className="
