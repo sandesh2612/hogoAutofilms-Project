@@ -1,33 +1,32 @@
 import t1 from "../assets/t1.jpeg";
-import t2 from "../assets/t1.jpeg";
-import t3 from "../assets/t1.jpeg";
-import t4 from "../assets/t1.jpeg";
+import t2 from "../assets/t2.jpg";
+import t3 from "../assets/t3.jpg";
 
 const testimonials = [
   {
     name: "Anjali Mehta",
     date: "07 Mar 2026",
-    img: t1,
+    img: t3,
     text: "Got my new Defender treated with TPU PPF. The finish is invisible and the self-healing property actually works! Best detailing studio in India for high-end cars.",
   },
   {
     name: "Priya Sharma",
     date: "14 Mar 2026",
-    img: t2,
+    img: t1,
     text: "The gloss on my Thar after the Ceramic Coating is unbelievable. It's been 3 months and the water still beads right off. Excellent professional service by the HOGO team!",
   },
   {
     name: "Vikram Malhotra",
     date: "27 Mar 2026",
-    img: t3,
+    img: t2,
     text: "I was worried about highway stone chips on my BMW. The matte PPF installation was flawless and it gave my car a whole new aggressive look. Truly premium work.",
   },
-  {
-    name: "Rohan Deshmukh",
-    date: "5 Apr 2026",
-    img: t4,
-    text: "Professional staff and top-tier materials. They explained the difference between TPH and TPU clearly. My Virtus looks better than it did at the showroom delivery.",
-  },
+  // {
+  //   name: "Rohan Deshmukh",
+  //   date: "5 Apr 2026",
+  //   img: t4,
+  //   text: "Professional staff and top-tier materials. They explained the difference between TPH and TPU clearly. My Virtus looks better than it did at the showroom delivery.",
+  // },
 ];
 
 function TestimonialCard({ t }) {

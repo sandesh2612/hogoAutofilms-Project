@@ -1,6 +1,8 @@
 import ProductShowcase from "../components/ProductShowcase";
 import products from "../data/products.json";
 import { useParams } from "react-router-dom";
+import gallerybg from "../assets/gallerybg.jpg"
+import HeroSection from "../components/HeroSection";
 
 import productimg1 from "../assets/productimg1.jpg";
 import productimg2 from "../assets/productimg2.jpg";
@@ -49,6 +51,14 @@ function ProductDetails() {
 
   return (
     <>
+
+     <HeroSection 
+            backgroundImage={gallerybg}
+            title={product.title}
+            title2="Product"
+            breadcrumbText={product.title}
+          />
+
       <ProductShowcase
         title={product.title}
         description={product.description}
