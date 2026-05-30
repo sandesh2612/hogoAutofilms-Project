@@ -1,4 +1,4 @@
-import AboutSection from "../components/AboutSection";
+import AboutSection from "../../src/components/Aboutsection";
 import BeforeAfterSection from "../components/BeforeAfterSection";
 import FAQSection from "../components/FAQSection";
 import Instagramsection from "../components/Instagramsection";
